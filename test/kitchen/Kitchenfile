@@ -1,0 +1,18 @@
+
+platform :ubuntu do
+  version '12.04' do
+    box "opscode-ubuntu-12.04"
+    box_url "https://opscode-vm.s3.amazonaws.com/vagrant/boxes/opscode-ubuntu-12.04.box"
+  end
+end
+
+platform :debian do
+  version '6.0' do
+    box "debian-squeeze-64"
+    box_url "http://dl.dropbox.com/u/937870/VMs/squeeze64.box"
+  end
+end
+
+cookbook "chef-golang" do
+  configuration "default"
+end
