@@ -8,9 +8,6 @@ version          '1.0.2'
 
 recipe "golang", "Installs go programing language."
 recipe "golang::install", "Installs go programing language."
-<<<<<<< HEAD
-=======
 
 supports 'debian', ">= 6.0"
 supports 'ubuntu', ">= 12.04"
->>>>>>> upstream/master
